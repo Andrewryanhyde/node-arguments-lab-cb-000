@@ -6,7 +6,6 @@ function generatePassword(length){
     pass +=possible.charAt(Math.floor(Math.random()*possible.length))
   }
 
-  console.log(pass)
   return pass
 }
 
